@@ -48,4 +48,4 @@ Run this commands to fine-tune the ResNet-50 pre-trained model.
 
 The trained model is stored in [work_dirs/resnet50_8xb32-ft_custom](work_dirs/resnet50_8xb32-ft_custom).
 
-Since there are only five types, only the top-1 accuracy is calculated in the evaluation criteria.# flower_classification
+Since there are only five types, only the top-1 accuracy is calculated in the evaluation criteria. The top-1 accuracy can reach approximately 97%.
