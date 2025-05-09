@@ -32,7 +32,7 @@ mmpretrain/
 ```
 The dataset is organized into ImageNet format in the document flower_dataset.
 
-The configuration file is located in [configs/resnet/resnet50_8xb32-ft_custom.py](configs/resnet/resnet50_8xb32-ft_custom.py)
+The configuration file is located in [mmpretrain/configs/resnet/resnet50_8xb32-ft_custom.py](mmpretrain/configs/resnet/resnet50_8xb32-ft_custom.py)
 
 ### Environment
 Run these commands in sequence to set up the environment.\
@@ -46,6 +46,6 @@ Run this commands to fine-tune the ResNet-50 pre-trained model.
 
 `python tools/train.py configs/resnet/resnet50_8xb32-ft_custom.py`
 
-The trained model is stored in [work_dirs/resnet50_8xb32-ft_custom](work_dirs/resnet50_8xb32-ft_custom).
+The trained model is stored in [mmpretrain/work_dirs/resnet50_8xb32-ft_custom](mmpretrain/work_dirs/resnet50_8xb32-ft_custom).
 
 Since there are only five types, only the top-1 accuracy is calculated in the evaluation criteria. The top-1 accuracy can reach approximately 97%.
